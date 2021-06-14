@@ -8,14 +8,24 @@ function Akan(){
   {
     alert("Enter valid date!");
   }
-  else{
-    alert("Thank you!");
-    if(month<1 || month>12)
-  }
+  else
+  if(month<1 || month>12)
   {
-    alert("Enter valid month!")
+    alert("Enter valid month!");
   }
-  
+  else
+  if(year<1800 || year>2021)
+  {
+    alert("Enter valid year!");
+  }
+  else("Thank you!")
 }
+
+function myFunction(){
+  var e = new Date(2001,8,26)
+  var b = e.getDate();
+  // console.log(b)
+}
+
 
 
