@@ -24,8 +24,11 @@ function Akan(){
 function myFunction(){
   var e = new Date(2001,8,26)
   var b = e.getDate();
-  // console.log(b)
-}
 
+  var maleAkan=["Kwasi", "Kwadwo","Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame", ]
+  var femaleAkan=["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"]
+// console.log(b)
+
+}
 
 
