@@ -38,6 +38,6 @@ if(document.getElementById("female").checked){
   alert("your akan name is" + "-" + femaleAkan[b])
 }
 else{
-  alert("select your gender");
+  alert("success!");
 }
 }
