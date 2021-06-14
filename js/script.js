@@ -1,5 +1,5 @@
 // akan
-function Akan(){
+function akanName(){
   var day=document.getElementById("date").value;
   var month=document.getElementById("month").value;
   var year=document.getElementById("year").value;
@@ -19,25 +19,25 @@ function Akan(){
     alert("Enter valid year!");
   }
   else("Thank you!")
-}
 
-function myFunction(){
-  var e = new Date(2001,8,26)
+// function myFunction(){
+  var e = new Date(year,month,day)
   var b = e.getDay();
 
-  var maleAkan=["Kwasi", "Kwadwo","Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame", ]
-  var femaleAkan=["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"]
+  var maleAkan=["Kwasi", "Kwadwo","Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame",];
+  var femaleAkan=["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"];
+
 // console.log(maleAkan[b])
 if(document.getElementById("male").checked){
-  document.getElementById("akanName").innerHTML = maleAkans[b];
+  alert("your akan name is" + "-" + maleAkan[b])
+
+  // alert("your akan name is."+ maleAkans[b]);
+
 }
-else if (document.getElementById("female").checked){
-  document.getElementById("akanName").innerHTML = femaleAkans[b];
+if(document.getElementById("female").checked){
+  alert("your akan name is" + "-" + femaleAkan[b])
 }
 else{
   alert("select your gender");
 }
-
 }
-
-

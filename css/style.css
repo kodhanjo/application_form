@@ -12,16 +12,9 @@ body{
   color: #0c0753;
 
 }
-
-  
-}
-h2 {
-    color: rgb(84, 101, 199);
-    padding-top: 5%;
-}
-.descript p{
-    color: rgb(84, 101, 199);
-    font-weight: 500;
+.decrtpt h2 {
+    color: rgb(9, 31, 160);
+    padding-top: 0px;
 }
 
 /* === declering fonts used */
