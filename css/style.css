@@ -178,6 +178,11 @@ h2 {
     }
   }
   .container {
-    background-color: rgba(216, 191, 216, 0.856);
+    background-color: rgba(216, 191, 216, 0.747);
+    color: rgb(12, 76, 172);
+    text-align: center;
+    height: 150px;
+    width: 300px;
+    box-sizing: border-box;
   }
-  
+ 
