@@ -6,11 +6,10 @@ $(document).ready(function() {
       controls: false
     });
     
-    $( ".explore-button" ).hover(function() {
+    $( ".discover-button" ).hover(function() {
       $( this ).parent().addClass("hovered-card");
     }, function() {
       $( this ).parent().removeClass("hovered-card");
     }
   );
-    
   });
