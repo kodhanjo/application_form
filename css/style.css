@@ -10,3 +10,36 @@ h2 {
 .descript p{
     color: white;
 }
+
+/* === declering fonts used */
+.font--robotoslab {
+    font-family: 'Roboto Slab', Georgia, serif;
+    font-weight: 700;
+  }
+  
+  .font--roboto {
+    font-family: 'Roboto', Arial, sans-serif;
+    font-weight: 400;
+  }
+  
+  .font--lobster {
+    font-family: 'Lobster', cursive;
+    font-weight: 400;
+  }
+  
+  .font--cabin {
+    font-family: 'Cabin', Arial, sans-serif;
+    font-weight: 400;
+  }
+  
+  .font--eczar {
+    font-family: 'Eczar', Georgia, serif;
+    font-weight: 700;
+  }
+  
+  .font--gentium {
+    font-family: 'Gentium Basic', Georgia, serif;
+    font-weight: 400;
+  }
+
+  /* end of fonts decleration */
