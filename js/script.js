@@ -23,11 +23,20 @@ function Akan(){
 
 function myFunction(){
   var e = new Date(2001,8,26)
-  var b = e.getDate();
+  var b = e.getDay();
 
   var maleAkan=["Kwasi", "Kwadwo","Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame", ]
   var femaleAkan=["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"]
-// console.log(b)
+// console.log(maleAkan[b])
+if(document.getElementById("male").checked){
+  document.getElementById("akanName").innerHTML = maleAkans[b];
+}
+else if (document.getElementById("female").checked){
+  document.getElementById("akanName").innerHTML = femaleAkans[b];
+}
+else{
+  alert("select your gender");
+}
 
 }
 
