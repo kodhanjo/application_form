@@ -1,8 +1,15 @@
+
 body{
-    background-image: url(/images/akan.jpg);
+    background-image: url("../images/akan.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
+}
+#container {
+  background-color: rgba(146, 137, 146, 0.788);
+  text-align: center;
+  padding: 1em;
+  color: #0c0753;
 }
 h2 {
     color: rgb(84, 101, 199);
@@ -164,7 +171,7 @@ h2 {
     }
   }
   
-  @media screen and (max-width: 991px) {
+  @media screen and (max-width: 780px) {
     .full-card {
       height: auto;
       flex-wrap: wrap;
@@ -177,12 +184,5 @@ h2 {
       width: 100%;
     }
   }
-  .container {
-    background-color: rgba(216, 191, 216, 0.747);
-    color: rgb(12, 76, 172);
-    text-align: center;
-    height: 150px;
-    width: 300px;
-    box-sizing: border-box;
-  }
+  
  

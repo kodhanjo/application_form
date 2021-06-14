@@ -1,3 +1,8 @@
+// akan
+function Akan(){
+  alert("Thank you!");
+}
+
 $(document).ready(function() {
   
     $('.slick-slider').bxSlider({
