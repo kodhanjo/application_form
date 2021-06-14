@@ -28,15 +28,4 @@ $(document).ready(function() {
 
 })();
 
-(function () {
-  "use strict";
-  
-  var container = document.getElementById('container'),
-      button = document.getElementById('btn2');
-
-  button.onclick = function () {
-      container.className = 'opacity';
-  };
-
-})();
 // ====end of onclick button======
