@@ -177,4 +177,7 @@ h2 {
       width: 100%;
     }
   }
+  .container {
+    background-color: rgba(216, 191, 216, 0.856);
+  }
   
