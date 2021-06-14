@@ -41,14 +41,13 @@ h2 {
     height: 120%;
     font-family: 'Roboto', Georgia, sans-serif;
     font-weight: 400;
-    /* overflow: hidden; */
   }
   
   body {
-    /* background: linear-gradient( to bottom, #EDF1F2, #D5E2F2); */
+
     justify-content: center;
     align-items: center;
-    font-size: 14px;
+    font-size: 15px;
     display: flex;
   }
   
