@@ -33,11 +33,12 @@ h2 {
 
   * {
     box-sizing: border-box;
+    border-radius: 5%;
   }
   
   html,
   body {
-    height: 100%;
+    height: 120%;
     font-family: 'Roboto', Georgia, sans-serif;
     font-weight: 400;
     /* overflow: hidden; */
