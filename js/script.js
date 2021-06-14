@@ -1,36 +1,21 @@
 // akan
 function Akan(){
-  alert("Thank you!");
+  var day=document.getElementById("date").value;
+  var month=document.getElementById("month").value;
+  var year=document.getElementById("year").value;
+  // var day=document.getElementById("day").value;
+  if(day<1 || day>31)
+  {
+    alert("Enter valid date!");
+  }
+  else{
+    alert("Thank you!");
+    if(month<1 || month>12)
+  }
+  {
+    alert("Enter valid month!")
+  }
+  
 }
 
-$(document).ready(function() {
-  
-    $('.slick-slider').bxSlider({
-      minSlides: 1,
-      maxSlides: 1,
-      controls: false
-    });
-    
-    $( ".discover-button" ).hover(function() {
-      $( this ).parent().addClass("hovered-card");
-    }, function() {
-      $( this ).parent().removeClass("hovered-card");
-    }
-  );
-  });
-  // ===== submit button onclick====
-  // Onclick
 
-(function () {
-  "use strict";
-  
-  var flip = document.getElementById('flip'),
-      button = document.getElementById('btn1');
-
-  button.onclick = function () {
-      flip.className = 'animate';
-  };
-
-})();
-
-// ====end of onclick button======
